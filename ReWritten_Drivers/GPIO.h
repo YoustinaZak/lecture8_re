@@ -9,14 +9,14 @@
 
 typedef struct GPIO_Struct
 {
- GPIO_CRL_OFFSET;
- GPIO_CRH_OFFSET;
- GPIO_IDR_OFFSET;   //0x08
- GPIO_ODR_OFFSET;   //0x0c
- GPIO_BSRR_OFFSET;   //0x10
- GPIO_BRR_OFFSET;    //0x14
- GPIO_LCKR_OFFSET;   //0x18
-} GPIO_Struct;
+	uint32_t GPIO_CRL_OFFSET;
+	uint32_t GPIO_CRH_OFFSET;
+	uint32_t GPIO_IDR_OFFSET;   //0x08
+	uint32_t GPIO_ODR_OFFSET;   //0x0c
+	uint32_t GPIO_BSRR_OFFSET;   //0x10
+	uint32_t GPIO_BRR_OFFSET;    //0x14
+	uint32_t GPIO_LCKR_OFFSET;   //0x18
+};
 
 typedef enum
 {
